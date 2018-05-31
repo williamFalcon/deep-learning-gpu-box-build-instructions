@@ -69,5 +69,5 @@ I'll add more details later, but in order you should:
 
 
 ### Some deep learning tips    
-1. Log your experiments and parallelize hyperparameter search using [the python library test tube](https://github.com/williamFalcon/test-tube)).   
+1. Log your experiments and parallelize hyperparameter search using [the python library test tube](https://github.com/williamFalcon/test-tube).   
 
