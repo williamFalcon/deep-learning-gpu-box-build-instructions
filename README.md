@@ -66,5 +66,8 @@ I'll add more details later, but in order you should:
 17. Install Ubuntu (or your OS).   
 18. Follow [these instructions](https://github.com/williamFalcon/tensorflow-gpu-install-ubuntu-16.04) to set up your system with tensorflow, pytorch and cuda drivers.      
 19. Learn deeply.   
-    
+
+
+### Some deep learning tips    
+1. Log your experiments and parallelize hyperparameter search using [the python library test tube](https://github.com/williamFalcon/test-tube)).   
 
