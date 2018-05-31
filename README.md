@@ -1,5 +1,17 @@
-# deep-learning-gpu-box-build-instructions
-Instructions and parts for building a deep learning GPU box    
+<p align="center">
+  <a href="https://github.com/williamFalcon/deep-learning-gpu-box-build-instructions">
+    <img alt="react-router" src="https://raw.github.com/williamFalcon/deep-learning-gpu-box-build-instructions/gpu_box.jpeg" width="50">
+  </a>
+</p>
+<h3 align="center">
+  Deep Learning GPU box build instructions   
+</h3>
+<p align="center">
+  Instructions to build your own research GPU box for deep learning AND get it set up with tensorflow, pytorch and CUDA drivers.   
+</p>
+
+
+
 
 #### After following these instructions you'll have:   
 1. A sick GPU box with multuple GPUs set up.   
