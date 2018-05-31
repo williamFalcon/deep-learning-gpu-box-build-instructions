@@ -20,5 +20,45 @@ Instructions and parts for building a deep learning GPU box
 | FAN connectors | [4Pin PWM to 3Pin](https://www.amazon.com/gp/product/B01H0OZC9W/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1) | You'll run out of fan connectors with new fans | 1 | Y |   
 
 
+### Considerations   
+1. Temperature
+    - If your machine gets too hot, the GPUs will auto-throttle down.   
+
+2. Bottlenecks
+    - With deep learnning, the biggest bottleneck is not the GPU but the DATA TRANSFER to the GPUs.
+    - This is why the Motherboard needs to be fast enough and should have at least 40 PCI lanes.  
+    - The drives need to be really fast.   
+    - Use the SSD to feed data directly to model. Use SSHD for long term storage that won't go into the model directly.   
+
+3. RAM
+    - Have at least as much RAM as you have GPU RAM.   
+
+4. CPU   
+    - Have at least 1 core per GPU. 
+    - Water cooling can help keep the overall temperature low.   
+    
+### Assembly / Install instructions    
+
+I'll add more details later, but in order you should:   
+1. Install fans.   
+2. install motherboard.   
+3. Install power source (but don't screw in yet).   
+4. Connect all the fans to motherboard.   
+5. Install drives.   
+6. Connect drives to motherboard.   
+7. Connect motherboard to power supply. 
+8. Connect power button, usb, etc... to motherboard.
+9. Install GPUs.  
+10. Connect GPUs to power supply. 
+11. Install RAM.   
+12. Screw in powersource.   
+13. Fix all the cables neatly.   
+14. Insert an ubuntu live USB.   
+15. Turn on.   
+16. Pray.    
+16. Boot into BIOS and set the USB as the priority drive.   
+17. Install Ubuntu (or your OS).   
+18. Follow [these instructions](https://github.com/williamFalcon/tensorflow-gpu-install-ubuntu-16.04) to set up your system with tensorflow, pytorch and cuda drivers.      
+19. Learn deeply.   
     
 
