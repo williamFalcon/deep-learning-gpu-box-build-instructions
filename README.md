@@ -5,6 +5,8 @@ Instructions and parts for building a deep learning GPU box
 1. A sick GPU box with multuple GPUs set up.   
 2. A functional OS ready for deep learning.   
 
+**Note: I've built 4 of these already and they are amazing. Total cost is around $6,000.** 
+
 ## Parts   
 
 | Part | Brand / Link | Purpose | Quantity | Optional? |
