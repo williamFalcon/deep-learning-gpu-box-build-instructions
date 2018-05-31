@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/williamFalcon/deep-learning-gpu-box-build-instructions">
-    <img alt="react-router" src="https://raw.github.com/williamFalcon/deep-learning-gpu-box-build-instructions/gpu_box.jpeg" width="50">
+    <img alt="GPU box" src="https://github.com/williamFalcon/deep-learning-gpu-box-build-instructions/blob/master/gpu_box.jpeg" width="50">
   </a>
 </p>
 <h3 align="center">
