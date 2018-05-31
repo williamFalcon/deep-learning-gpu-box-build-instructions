@@ -1,6 +1,10 @@
 # deep-learning-gpu-box-build-instructions
 Instructions and parts for building a deep learning GPU box    
 
+#### After following these instructions you'll have:   
+1. A sick GPU box with multuple GPUs set up.   
+2. A functional OS ready for deep learning.   
+
 ## Parts   
 
 | Part | Brand / Link | Purpose | Quantity | Optional? |
